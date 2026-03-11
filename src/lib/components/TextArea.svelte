@@ -2,7 +2,7 @@
   // Getting the textarea
   let textAreaElement: HTMLTextAreaElement | undefined = $state();
   // Declaring value with svelte bindable and ...rest to get textarea property
-  let { value = $bindable(""), ...rest } = $props();
+  let { value = $bindable(""), class: className = "", ...rest } = $props();
 
   /* resize function get the actual */
   function resize() {
@@ -18,18 +18,19 @@
 </script>
 
 <textarea
-  class="textarea resize-ta"
   {...rest}
   bind:this={textAreaElement}
   bind:value
+  class="textarea-autosize {className}"
   rows="1"
 ></textarea>
 
 <style>
-  textarea {
+  .textarea-autosize {
     display: block;
     width: 100%;
     overflow: hidden;
     resize: none;
+    box-sizing: border-box;
   }
 </style>
