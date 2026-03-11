@@ -1,6 +1,9 @@
 {
-	"name": "svelte-textarea-autosize",
+	"name": "@theprimebuilder/svelte-textarea-autosize",
 	"version": "1.0.1",
+	"publishConfig": {
+		"access": "public"
+	},
 	"license":"MIT",
 	"scripts": {
 		"dev": "vite dev",

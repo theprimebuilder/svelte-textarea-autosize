@@ -8,6 +8,5 @@ version 1.0.1
 
 # Usage
 working on it.
-# svelte-textarea-autosize
-# svelte-textarea-autosize
-# svelte-textarea-autosize
+
+
