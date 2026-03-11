@@ -1,6 +1,6 @@
 # Svelte textarea auto size
 Here is a svelte component to get textarea auto size.
-version 1.0.2
+version 1.0.3
 
 # Installation 
 ``` npm install svelte-textarea-autosize

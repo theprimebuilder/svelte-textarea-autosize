@@ -1,8 +1,20 @@
 <script lang="ts">
+  import type { HTMLTextareaAttributes } from "svelte/elements";
+
   // Getting the textarea
   let textAreaElement: HTMLTextAreaElement | undefined = $state();
+
+  interface TextAreaProps extends HTMLTextareaAttributes {
+    value?: string;
+    class?: string;
+  }
+
   // Declaring value with svelte bindable and ...rest to get textarea property
-  let { value = $bindable(""), class: className = "", ...rest } = $props();
+  let {
+    value = $bindable(""),
+    class: className = "",
+    ...rest
+  }: TextAreaProps = $props();
 
   /* resize function get the actual */
   function resize() {
@@ -10,6 +22,7 @@
     (textAreaElement.style.height = "auto"),
       (textAreaElement.style.height = `${textAreaElement.scrollHeight}px`);
   }
+
   // Using effect to resize the textarea when value change
   $effect(() => {
     const _ = value;
