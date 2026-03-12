@@ -1,12 +1,16 @@
 # Svelte textarea auto size
 A lightweight Svelte component to get a textarea that automatically adjusts its height.
 
-**version 1.0.4**
+![Svelte](https://img.shields.io/badge/Svelte-5-ff3e00?logo=svelte&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)
+![Bun](https://img.shields.io/badge/Bun-000000?logo=bun&logoColor=white)
+
+
+**version 1.0.5**
+
+# Warning: only version 1.0.4 is stable
 
 # Installation 
-```bash
-npm i @theprimebuilder/svelte-textarea-autosize
-```
 
 ```bash
 npm i @theprimebuilder/svelte-textarea-autosize
@@ -107,6 +111,9 @@ Open your browser at `http://localhost:5173` to see the demo page.
 # Links
 [NPM](https://www.npmjs.com/package/@theprimebuilder/svelte-textarea-autosize)
 
+[Github repo](https://github.com/theprimebuilder/svelte-textarea-autosize)
+
+[Github profile](https://github.com/theprimebuilder)
 
 # Note
 If you encounter any issues, please report them on the GitHub repository. Thank you!
