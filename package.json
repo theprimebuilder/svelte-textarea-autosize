@@ -1,6 +1,7 @@
 {
 	"name": "@theprimebuilder/svelte-textarea-autosize",
-	"version": "1.0.5",
+	"version": "1.0.6",
+	"description": "A lightweight Svelte component to get a textarea that automatically adjusts its height.",
 	"publishConfig": {
 		"access": "public"
 	},
@@ -50,7 +51,14 @@
 		"vite": "^7.3.1"
 	},
 	"keywords": [
-		"svelte"
-	]
+		"svelte",
+	"util", "textarea", "textarea autosize",
+	"textarea auto growth", "svelte component"
+	],
+	"homepage": "https://github.com/theprimebuilder/svelte-textarea-autosize#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/theprimebuilder/svelte-textarea-autosize.git"
+	}
 	
 }

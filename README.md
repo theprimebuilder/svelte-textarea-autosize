@@ -6,7 +6,7 @@ A lightweight Svelte component to get a textarea that automatically adjusts its 
 ![Bun](https://img.shields.io/badge/Bun-000000?logo=bun&logoColor=white)
 
 
-**version 1.0.5**
+**version 1.0.6**
 
 # Warning: only version 1.0.4 is stable
 
