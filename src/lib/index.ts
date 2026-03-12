@@ -1,2 +1,4 @@
 // Reexport your entry components here
-export { default as TextArea } from "./components/TextArea.svelte";
+import TextArea from "./components/TextArea.svelte";
+export { TextArea };
+export default TextArea;

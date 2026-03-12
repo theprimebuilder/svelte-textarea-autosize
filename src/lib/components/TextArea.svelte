@@ -4,6 +4,7 @@
   // Getting the textarea
   let textAreaElement: HTMLTextAreaElement | undefined = $state();
 
+  // Declaring interface for ts
   interface TextAreaProps extends HTMLTextareaAttributes {
     value?: string;
     class?: string;
@@ -42,7 +43,7 @@
   .textarea-autosize {
     display: block;
     width: 100%;
-    overflow: hidden;
+    overflow: auto;
     resize: none;
     box-sizing: border-box;
   }

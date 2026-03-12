@@ -1,0 +1,35 @@
+:root {
+  /* color */
+  --primary: rgba(246, 125, 45, 1);
+
+  /* Font size */
+  --body: 0.875rem;
+  --header: 1.5rem;
+
+  /* corner-radius */
+  --r-small: 10px;
+  --r-normal: 15px;
+  --r-large: 20px;
+
+  /* spacing */
+  --s-small: 10px;
+  --s-large: 20px;
+
+  /* padding */
+  --p-small: 10px;
+
+    box-sizing: border-box;
+     overflow: hidden;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0;
+    margin-inline: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+h1, p {
+    margin: 0;
+}
